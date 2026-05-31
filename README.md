@@ -176,7 +176,7 @@ Two-tier resilient architecture — never goes dark.
 ```
 TIER 1 — Online
 ┌─────────────────────────────────────────────────────┐
-│  Gemini 2.5 Flash  •  Direct REST (no SDK bloat)    │
+│  Gemini 2.5 Flash  •  Direct REST     │
 │  Legal system prompt:                               │
 │    • Never invent fine amounts                      │
 │    • Always cite MVA section                        │
