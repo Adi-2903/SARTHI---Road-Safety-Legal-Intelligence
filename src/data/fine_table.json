@@ -1,0 +1,164 @@
+{
+  "states": [
+    { "code": "MH", "name": "Maharashtra", "rto_capital": "Mumbai" },
+    { "code": "DL", "name": "Delhi", "rto_capital": "New Delhi" },
+    { "code": "TN", "name": "Tamil Nadu", "rto_capital": "Chennai" }
+  ],
+  "vehicle_classes": [
+    { "code": "2W", "label": "Two-wheeler" },
+    { "code": "LMV", "label": "Light Motor Vehicle (Car)" },
+    { "code": "TRANS", "label": "Transport / Commercial" },
+    { "code": "HMV", "label": "Heavy Motor Vehicle (Truck/Bus)" }
+  ],
+  "violations": [
+    {
+      "id": "no_helmet",
+      "label": "Riding without helmet",
+      "section": "194D",
+      "compoundable": true,
+      "fines": { "2W": { "MH": 1000, "DL": 1000, "TN": 1000 } }
+    },
+    {
+      "id": "no_seatbelt",
+      "label": "Driving without seatbelt",
+      "section": "194B",
+      "compoundable": true,
+      "fines": {
+        "LMV": { "MH": 1000, "DL": 1000, "TN": 1000 },
+        "TRANS": { "MH": 1000, "DL": 1000, "TN": 1000 }
+      }
+    },
+    {
+      "id": "overspeed_lmv",
+      "label": "Over-speeding (LMV)",
+      "section": "183",
+      "compoundable": true,
+      "fines": {
+        "LMV": { "MH": 2000, "DL": 2000, "TN": 1500 },
+        "2W": { "MH": 1000, "DL": 1000, "TN": 1000 }
+      }
+    },
+    {
+      "id": "overspeed_hmv",
+      "label": "Over-speeding (HMV/Transport)",
+      "section": "183",
+      "compoundable": true,
+      "fines": {
+        "HMV": { "MH": 4000, "DL": 4000, "TN": 3000 },
+        "TRANS": { "MH": 4000, "DL": 4000, "TN": 3000 }
+      }
+    },
+    {
+      "id": "drunk_driving",
+      "label": "Driving under influence",
+      "section": "185",
+      "compoundable": false,
+      "fines": {
+        "2W": { "MH": 10000, "DL": 10000, "TN": 10000 },
+        "LMV": { "MH": 10000, "DL": 10000, "TN": 10000 },
+        "TRANS": { "MH": 10000, "DL": 10000, "TN": 10000 },
+        "HMV": { "MH": 10000, "DL": 10000, "TN": 10000 }
+      }
+    },
+    {
+      "id": "no_license",
+      "label": "Driving without valid licence",
+      "section": "181",
+      "compoundable": true,
+      "fines": {
+        "2W": { "MH": 5000, "DL": 5000, "TN": 5000 },
+        "LMV": { "MH": 5000, "DL": 5000, "TN": 5000 },
+        "TRANS": { "MH": 5000, "DL": 5000, "TN": 5000 },
+        "HMV": { "MH": 5000, "DL": 5000, "TN": 5000 }
+      }
+    },
+    {
+      "id": "no_insurance",
+      "label": "Driving without insurance",
+      "section": "196",
+      "compoundable": true,
+      "fines": {
+        "2W": { "MH": 2000, "DL": 2000, "TN": 2000 },
+        "LMV": { "MH": 2000, "DL": 2000, "TN": 2000 }
+      }
+    },
+    {
+      "id": "mobile_use",
+      "label": "Using mobile phone while driving",
+      "section": "184",
+      "compoundable": true,
+      "fines": {
+        "2W": { "MH": 5000, "DL": 5000, "TN": 5000 },
+        "LMV": { "MH": 5000, "DL": 5000, "TN": 5000 }
+      }
+    },
+    {
+      "id": "red_light",
+      "label": "Jumping red light / signal",
+      "section": "184",
+      "compoundable": true,
+      "fines": {
+        "2W": { "MH": 1000, "DL": 1000, "TN": 1000 },
+        "LMV": { "MH": 5000, "DL": 5000, "TN": 5000 }
+      }
+    },
+    {
+      "id": "wrong_side",
+      "label": "Driving on wrong side",
+      "section": "184",
+      "compoundable": true,
+      "fines": {
+        "2W": { "MH": 1500, "DL": 1500, "TN": 1500 },
+        "LMV": { "MH": 5000, "DL": 5000, "TN": 5000 }
+      }
+    },
+    {
+      "id": "triple_riding",
+      "label": "Triple riding on two-wheeler",
+      "section": "194C",
+      "compoundable": true,
+      "fines": { "2W": { "MH": 1000, "DL": 1000, "TN": 1000 } }
+    },
+    {
+      "id": "no_puc",
+      "label": "Driving without Pollution Under Control (PUC)",
+      "section": "190(2)",
+      "compoundable": true,
+      "fines": {
+        "2W": { "MH": 10000, "DL": 10000, "TN": 10000 },
+        "LMV": { "MH": 10000, "DL": 10000, "TN": 10000 }
+      }
+    },
+    {
+      "id": "dangerous_driving",
+      "label": "Dangerous / rash driving",
+      "section": "184",
+      "compoundable": false,
+      "fines": {
+        "2W": { "MH": 5000, "DL": 5000, "TN": 5000 },
+        "LMV": { "MH": 5000, "DL": 5000, "TN": 5000 }
+      }
+    },
+    {
+      "id": "overload",
+      "label": "Overloading of goods",
+      "section": "194",
+      "compoundable": true,
+      "fines": {
+        "TRANS": { "MH": 20000, "DL": 20000, "TN": 20000 },
+        "HMV": { "MH": 20000, "DL": 20000, "TN": 20000 }
+      }
+    },
+    {
+      "id": "racing",
+      "label": "Racing on public road",
+      "section": "189",
+      "compoundable": false,
+      "fines": {
+        "2W": { "MH": 5000, "DL": 5000, "TN": 5000 },
+        "LMV": { "MH": 5000, "DL": 5000, "TN": 5000 }
+      }
+    }
+  ],
+  "statutory_deadline_days": 60
+}

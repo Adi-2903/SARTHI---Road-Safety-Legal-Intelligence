@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "Sion Circle", "city": "Mumbai", "severity": "high", "incidents_3y": 47 }, "geometry": { "type": "Point", "coordinates": [72.8628, 19.0438] } },
+    { "type": "Feature", "properties": { "name": "Eastern Express Hwy KM12", "city": "Mumbai", "severity": "high", "incidents_3y": 39 }, "geometry": { "type": "Point", "coordinates": [72.9081, 19.0760] } },
+    { "type": "Feature", "properties": { "name": "JJ Flyover South", "city": "Mumbai", "severity": "medium", "incidents_3y": 21 }, "geometry": { "type": "Point", "coordinates": [72.8347, 18.9617] } },
+    { "type": "Feature", "properties": { "name": "Sahar Elevated Road", "city": "Mumbai", "severity": "medium", "incidents_3y": 18 }, "geometry": { "type": "Point", "coordinates": [72.8693, 19.0986] } },
+    { "type": "Feature", "properties": { "name": "Bandra Worli Sea Link Toll", "city": "Mumbai", "severity": "low", "incidents_3y": 9 }, "geometry": { "type": "Point", "coordinates": [72.8204, 19.0353] } },
+    { "type": "Feature", "properties": { "name": "Andheri Subway", "city": "Mumbai", "severity": "high", "incidents_3y": 33 }, "geometry": { "type": "Point", "coordinates": [72.8470, 19.1197] } },
+    { "type": "Feature", "properties": { "name": "Dahisar Check Naka", "city": "Mumbai", "severity": "medium", "incidents_3y": 24 }, "geometry": { "type": "Point", "coordinates": [72.8580, 19.2545] } },
+
+    { "type": "Feature", "properties": { "name": "ITO Junction", "city": "Delhi", "severity": "high", "incidents_3y": 54 }, "geometry": { "type": "Point", "coordinates": [77.2410, 28.6304] } },
+    { "type": "Feature", "properties": { "name": "AIIMS Flyover", "city": "Delhi", "severity": "high", "incidents_3y": 41 }, "geometry": { "type": "Point", "coordinates": [77.2090, 28.5672] } },
+    { "type": "Feature", "properties": { "name": "Dhaula Kuan", "city": "Delhi", "severity": "high", "incidents_3y": 60 }, "geometry": { "type": "Point", "coordinates": [77.1610, 28.5915] } },
+    { "type": "Feature", "properties": { "name": "Mukarba Chowk", "city": "Delhi", "severity": "medium", "incidents_3y": 22 }, "geometry": { "type": "Point", "coordinates": [77.1490, 28.7350] } },
+    { "type": "Feature", "properties": { "name": "Ashram Chowk", "city": "Delhi", "severity": "high", "incidents_3y": 36 }, "geometry": { "type": "Point", "coordinates": [77.2659, 28.5697] } },
+    { "type": "Feature", "properties": { "name": "Punjabi Bagh Flyover", "city": "Delhi", "severity": "medium", "incidents_3y": 19 }, "geometry": { "type": "Point", "coordinates": [77.1294, 28.6740] } },
+    { "type": "Feature", "properties": { "name": "Ring Rd / Naraina", "city": "Delhi", "severity": "low", "incidents_3y": 11 }, "geometry": { "type": "Point", "coordinates": [77.1395, 28.6320] } },
+
+    { "type": "Feature", "properties": { "name": "Kathipara Junction", "city": "Chennai", "severity": "high", "incidents_3y": 38 }, "geometry": { "type": "Point", "coordinates": [80.1989, 13.0067] } },
+    { "type": "Feature", "properties": { "name": "Koyambedu Roundabout", "city": "Chennai", "severity": "medium", "incidents_3y": 23 }, "geometry": { "type": "Point", "coordinates": [80.1944, 13.0694] } },
+    { "type": "Feature", "properties": { "name": "Maduravoyal Flyover", "city": "Chennai", "severity": "high", "incidents_3y": 31 }, "geometry": { "type": "Point", "coordinates": [80.1700, 13.0670] } },
+    { "type": "Feature", "properties": { "name": "Tambaram GST Rd", "city": "Chennai", "severity": "high", "incidents_3y": 44 }, "geometry": { "type": "Point", "coordinates": [80.1170, 12.9249] } },
+    { "type": "Feature", "properties": { "name": "Anna Salai / Spencer", "city": "Chennai", "severity": "medium", "incidents_3y": 17 }, "geometry": { "type": "Point", "coordinates": [80.2620, 13.0610] } },
+    { "type": "Feature", "properties": { "name": "OMR Thoraipakkam", "city": "Chennai", "severity": "medium", "incidents_3y": 20 }, "geometry": { "type": "Point", "coordinates": [80.2350, 12.9410] } },
+    { "type": "Feature", "properties": { "name": "ECR Akkarai", "city": "Chennai", "severity": "low", "incidents_3y": 8 }, "geometry": { "type": "Point", "coordinates": [80.2570, 12.8800] } }
+  ]
+}

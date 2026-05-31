@@ -1,0 +1,17 @@
+{
+  "MH": {
+    "state_name": "Maharashtra",
+    "rto_address": "Transport Commissioner, Maharashtra State, 4th Floor, Administrative Building, Govt. Colony, Bandra (E), Mumbai 400051",
+    "court": "Hon'ble Court of the Metropolitan Magistrate (Traffic), Mumbai"
+  },
+  "DL": {
+    "state_name": "Delhi",
+    "rto_address": "Office of the Transport Commissioner, 5/9 Underhill Road, Civil Lines, Delhi 110054",
+    "court": "Hon'ble Court of the Metropolitan Magistrate (Traffic), Tis Hazari, Delhi"
+  },
+  "TN": {
+    "state_name": "Tamil Nadu",
+    "rto_address": "Transport Commissioner, Tamil Nadu, Ezhilagam Annex, Chepauk, Chennai 600005",
+    "court": "Hon'ble Court of the Metropolitan Magistrate (Traffic), Egmore, Chennai"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ranks": [
+    { "code": "CONSTABLE", "label": "Constable", "max_fine": 100 },
+    { "code": "HEAD_CONSTABLE", "label": "Head Constable", "max_fine": 100 },
+    { "code": "ASI", "label": "Assistant Sub-Inspector (ASI)", "max_fine": 1000 },
+    { "code": "SI", "label": "Sub-Inspector (SI)", "max_fine": 5000 },
+    { "code": "INSPECTOR", "label": "Inspector", "max_fine": 100000 },
+    { "code": "RTO", "label": "Motor Vehicle Inspector (RTO)", "max_fine": 100000 }
+  ],
+  "notes": "Indicative authority caps for non-compoundable challans. Below the cap the officer may issue spot fines; above it the matter must go to the court."
+}

@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "KEM Hospital", "city": "Mumbai", "phone": "022-24107000", "level": "Level-1 Trauma" }, "geometry": { "type": "Point", "coordinates": [72.8431, 19.0040] } },
+    { "type": "Feature", "properties": { "name": "Sion Hospital", "city": "Mumbai", "phone": "022-24076381", "level": "Level-1 Trauma" }, "geometry": { "type": "Point", "coordinates": [72.8636, 19.0408] } },
+    { "type": "Feature", "properties": { "name": "Cooper Hospital", "city": "Mumbai", "phone": "022-26207254", "level": "Level-2" }, "geometry": { "type": "Point", "coordinates": [72.8420, 19.1078] } },
+    { "type": "Feature", "properties": { "name": "Nair Hospital", "city": "Mumbai", "phone": "022-23027642", "level": "Level-2" }, "geometry": { "type": "Point", "coordinates": [72.8190, 18.9750] } },
+
+    { "type": "Feature", "properties": { "name": "AIIMS Trauma Centre", "city": "Delhi", "phone": "011-26593308", "level": "Level-1 Trauma" }, "geometry": { "type": "Point", "coordinates": [77.2090, 28.5672] } },
+    { "type": "Feature", "properties": { "name": "Safdarjung Hospital", "city": "Delhi", "phone": "011-26707444", "level": "Level-1 Trauma" }, "geometry": { "type": "Point", "coordinates": [77.2050, 28.5680] } },
+    { "type": "Feature", "properties": { "name": "Lok Nayak Hospital", "city": "Delhi", "phone": "011-23233400", "level": "Level-2" }, "geometry": { "type": "Point", "coordinates": [77.2410, 28.6404] } },
+    { "type": "Feature", "properties": { "name": "RML Hospital", "city": "Delhi", "phone": "011-23365525", "level": "Level-2" }, "geometry": { "type": "Point", "coordinates": [77.2049, 28.6240] } },
+
+    { "type": "Feature", "properties": { "name": "Rajiv Gandhi Govt. Hospital", "city": "Chennai", "phone": "044-25305000", "level": "Level-1 Trauma" }, "geometry": { "type": "Point", "coordinates": [80.2786, 13.0780] } },
+    { "type": "Feature", "properties": { "name": "Stanley Medical Hospital", "city": "Chennai", "phone": "044-25281351", "level": "Level-2" }, "geometry": { "type": "Point", "coordinates": [80.2900, 13.1090] } },
+    { "type": "Feature", "properties": { "name": "Kilpauk Medical Hospital", "city": "Chennai", "phone": "044-26412903", "level": "Level-2" }, "geometry": { "type": "Point", "coordinates": [80.2410, 13.0810] } }
+  ]
+}
